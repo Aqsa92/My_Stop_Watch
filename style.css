@@ -1,0 +1,99 @@
+body{
+    background-color:  rgb(235, 105, 19);
+    text-align: center;
+}
+#minutes,#seconds,#milisec{
+    display: inline;
+    font-size: 120px;
+   
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:rgb(98, 0, 0);
+
+}
+#start,#pause,#reset{
+    font-size: 40px;
+    margin: 10px;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+}
+#heading
+{
+    font-size: 30px !important;
+    background-color: darkred;
+    color: white;
+    
+    
+    
+}
+#heading2{
+    font-size: 40px;
+    color:rgb(98, 0, 0);
+}
+@media screen and (max-width: 400px){
+    #minutes,#seconds,#milisec{
+        display: inline;
+        font-size: 70px;
+       
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color:rgb(98, 0, 0);
+}
+#start,#pause,#reset{
+    font-size: 25px;
+    margin: 1px;
+    background-color: darkred;
+    color: white;
+    border-radius: 8px;
+}
+#heading
+{
+    font-size: 20px !important;
+    background-color: darkred;
+    color: white;
+    
+    
+    
+}
+#heading2,#hours{
+    font-size: 25px;
+    color:rgb(98, 0, 0);
+}
+}
+@media screen and (max-width: 250px){
+    #minutes,#seconds,#milisec{
+        display: inline;
+        font-size: 30px;
+       
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color:rgb(98, 0, 0);
+}
+#start,#pause,#reset{
+    font-size: 15px;
+    margin: 1px;
+    background-color: darkred;
+    color: white;
+    border-radius: 8px;
+}
+#heading
+{
+    font-size: 15px !important;
+    background-color: darkred;
+    color: white;
+    
+    
+    
+}
+#heading2,#hours{
+    font-size: 15px;
+    color:rgb(98, 0, 0);
+}
+}
